@@ -1,0 +1,9 @@
+#JSGF V1.0;
+
+/**
+* JSGF Grammar for words in Harry Potter
+*/
+
+grammar words;
+
+public <words> = (Mr  | normal | very | proud | perfectly | mr | privet | say | mrs | number | that | dursely | and | four | were | of | thank | to | drive | they | you | much) * ;
